@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Angie Daniela López – Desarrolladora Full Stack | Hoja de vida</title>
+<meta name="description" content="Hoja de vida de Angie Daniela López, desarrolladora Full Stack.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="bar" aria-label="Opciones de la hoja de vida">
+  <button id="btnVisual" class="on">Versión visual</button>
+  <button id="btnAts">Versión ATS</button>
+  <button id="btnPdfVisual" class="pri">Descargar PDF visual</button>
+  <button id="btnPdfAts" class="pri">Descargar PDF ATS</button>
+</nav>
+
+<article class="cv">
+  <header>
+    <div class="mono" aria-hidden="true">AL</div>
+    <div>
+      <h1>Angie Daniela López</h1>
+      <p class="role">Desarrolladora Full Stack · JavaScript · React · Node.js</p>
+      <p class="contact">
+        <span>Colombia</span>
+        <a href="mailto:angie.lopez@email.com">angie.lopez@email.com</a>
+        <span>+57 300 000 0000</span>
+        <a href="https://github.com/angielopez">github.com/angielopez</a>
+        <a href="https://linkedin.com/in/angielopez">linkedin.com/in/angielopez</a>
+      </p>
+    </div>
+  </header>
+
+  <div class="grid">
+    <aside>
+      <section class="viz">
+        <h2>GitHub</h2>
+        <div class="stats">
+          <div><b>48</b><span>Repos</span></div>
+          <div><b>1.2k</b><span>Commits</span></div>
+          <div><b>320</b><span>Stars</span></div>
+        </div>
+        <div id="heat" aria-hidden="true"></div>
+      </section>
+
+      <section>
+        <h2>Habilidades</h2>
+        <p class="label">Lenguajes</p>
+        <ul class="tags"><li>JavaScript</li><li>TypeScript</li><li>Python</li><li>SQL</li><li>HTML5</li><li>CSS3</li></ul>
+        <p class="label">Frameworks</p>
+        <ul class="tags"><li>React</li><li>Next.js</li><li>Node.js</li><li>Express</li><li>Tailwind CSS</li></ul>
+        <p class="label">Bases de datos</p>
+        <ul class="tags"><li>PostgreSQL</li><li>MongoDB</li><li>Redis</li></ul>
+        <p class="label">DevOps y herramientas</p>
+        <ul class="tags"><li>Git</li><li>GitHub Actions</li><li>Docker</li><li>AWS</li><li>CI/CD</li><li>Jest</li><li>REST</li></ul>
+      </section>
+
+      <section>
+        <h2>Idiomas</h2>
+        <ul class="plain"><li>Español – Nativo</li><li>Inglés – B2 (intermedio alto)</li></ul>
+      </section>
+
+      <section>
+        <h2>Habilidades blandas</h2>
+        <ul class="plain"><li>Trabajo en equipo</li><li>Comunicación asertiva</li><li>Resolución de problemas</li><li>Metodologías ágiles (Scrum)</li></ul>
+      </section>
+    </aside>
+
+    <main>
+      <section>
+        <h2>Perfil profesional</h2>
+        <p>Desarrolladora Full Stack con 5 años de experiencia creando aplicaciones web escalables con React, Node.js y PostgreSQL. Orientada a código limpio, pruebas automatizadas y despliegue continuo. Redujo tiempos de carga hasta 40% y lideró migraciones a la nube. Busco aportar en equipos ágiles de producto.</p>
+      </section>
+
+      <section>
+        <h2>Experiencia laboral</h2>
+        <div class="item">
+          <h3>Desarrolladora Full Stack Senior – TechNova S.A.S.</h3>
+          <p class="meta">Ene 2023 – Presente · Híbrido</p>
+          <ul>
+            <li>Desarrollé una plataforma SaaS con React, Node.js y PostgreSQL usada por más de 20.000 usuarios.</li>
+            <li>Reduje el tiempo de carga 40% con lazy loading, caché en Redis y optimización de consultas SQL.</li>
+            <li>Implementé pipelines CI/CD con GitHub Actions y Docker: despliegues de 2 h a 15 min.</li>
+            <li>Mentoría a 3 desarrolladores junior mediante revisiones de código.</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3>Desarrolladora Web – Pixel Labs</h3>
+          <p class="meta">Mar 2020 – Dic 2022</p>
+          <ul>
+            <li>Construí más de 15 sitios y APIs REST para clientes de retail y fintech.</li>
+            <li>Aumenté la cobertura de pruebas del 20% al 80% con Jest y Testing Library.</li>
+            <li>Integré pasarelas de pago (Stripe, PayU) y autenticación OAuth 2.0 / JWT.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Proyectos destacados</h2>
+        <div class="item">
+          <h3>TaskFlow – Gestor de tareas colaborativo</h3>
+          <p class="meta">React, Node.js, MongoDB, WebSockets · <a href="https://github.com/angielopez/taskflow">github.com/angielopez/taskflow</a></p>
+          <ul><li>Aplicación en tiempo real con más de 150 estrellas en GitHub, desplegada en AWS.</li></ul>
+        </div>
+        <div class="item">
+          <h3>DevMetrics – Dashboard de métricas de repositorios</h3>
+          <p class="meta">Next.js, TypeScript, GitHub API · <a href="https://github.com/angielopez/devmetrics">github.com/angielopez/devmetrics</a></p>
+          <ul><li>Visualiza commits, PRs y lenguajes; usado por más de 500 desarrolladores.</li></ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Educación</h2>
+        <div class="item">
+          <h3>Ingeniería de Sistemas – Universidad Nacional de Colombia</h3>
+          <p class="meta">2015 – 2019</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Certificaciones</h2>
+        <ul>
+          <li>AWS Certified Cloud Practitioner – Amazon Web Services (2024)</li>
+          <li>Meta Front-End Developer Professional Certificate – Coursera (2022)</li>
+          <li>Node.js Application Developer – OpenJS Foundation (2021)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Referencias</h2>
+        <p>Disponibles bajo solicitud.</p>
+      </section>
+    </main>
+  </div>
+</article>
+
+<script src="script.js"></script>
+</body>
+</html>
